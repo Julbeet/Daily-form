@@ -1,9 +1,8 @@
-html, body,
-.wrapper {
+html, body {
 	height: 100%;
 }
 
-.wrapper {
+body {
 	background:  linear-gradient(45deg, rgba(246,41,12,1) 0%, rgba(246,41,12,1) 14%, rgba(221,36,119,1) 100%);
 	font: 400 13px/1.5 Arial, sans-serif;
 	color: #7a7b7f;
@@ -53,6 +52,9 @@ html, body,
 	border-bottom: 1px solid #ea355a;
 }
 
+.reg-form {
+	font-size: 0;
+}
 .reg-form__input,
 .reg-form__btn  {
 	width: 100%;
@@ -67,12 +69,12 @@ html, body,
 	width: 48%;
 }
 
-.reg-form__input  + .reg-form__input {
-	margin-bottom: 15px;
+.reg-form__input{
+	margin-bottom: ;
 }
 
-.reg-form__input:first-of-type {
-	margin-right: 12px;
+.reg-form__input--sm + .reg-form__input--sm {
+    margin-left: 4%; 
 }
 
 .reg-form__btn {
@@ -88,8 +90,4 @@ html, body,
 .reg-form__btn:active,
 .reg-form__btn:focus {
 	background-color: #bd1962;
-}
-
-.signup-box__text--bottom {
-	margin-bottom: 30px;
 }
